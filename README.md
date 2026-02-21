@@ -21,7 +21,7 @@ Besides Torch, the core components of FlexHook also include RoBERTa, ROPE Swin-T
 
 3. Prepare the pretrained following [here](pretrained/PRETRAIN.md)
 
-4. Download the best weights and tracker results we provide in <a href="https://pan.baidu.com/s/1L-43y9SFDKmgl3dJNRlvNA?pwd=d3qj" title="model">FlexHook_best</a> and place them in the root directory as `FlexHook/SOTA_ckpts` and `FlexHook/tracker_outputs`.
+4. Download the **best weights** and **tracker results** we provide in <a href="https://pan.baidu.com/s/1L-43y9SFDKmgl3dJNRlvNA?pwd=d3qj" title="model">FlexHook_best</a> and place them in the root directory as `FlexHook/SOTA_ckpts` and `FlexHook/tracker_outputs`.
 
 5. Change the necessary items in the `configs` and batch size in `FlexHook/*.sh`.
 
