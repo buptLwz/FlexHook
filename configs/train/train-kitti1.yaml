@@ -1,0 +1,75 @@
+DATA:
+  IMG_SIZE: [224,672]
+  PIN_MEMORY: True
+  NUM_WORKERS: 4
+  DATASET: kitti-1
+  
+VISUAL: resnet34
+TEXT: roberta
+TRAIN:
+  ACCUMULATION_STEPS: 1
+  AUTO_RESUME: true
+  BASE_LR: 3.0e-5 #3.0e-05 #6.0e-05
+  CLIP_GRAD: 5.0
+  EPOCHS: 20
+  LAYER_DECAY: 1.0
+  LR_SCHEDULER:
+    DECAY_EPOCHS: 60
+    DECAY_RATE: 0.1
+    GAMMA: 0.5
+    MULTISTEPS: [12,18]
+    NAME: multistep
+    WARMUP_PREFIX: False
+
+  MIN_LR: 3.0e-07 
+
+  OPTIMIZER:
+    BETAS:
+    - 0.9 #0.5
+    - 0.999
+    EPS: 1.0e-10
+    MOMENTUM: 0.9 #0.5
+    NAME: adamw
+  START_EPOCH: 0
+  USE_CHECKPOINT: false
+  WARMUP_EPOCHS: -1 
+  WARMUP_LR: 3.0e-5 
+  WEIGHT_DECAY: 1.0e-4
+
+PRINT_FREQ: 10
+SAVE_FREQ: 5
+
+SEED: 0
+sample_frame_len: 8
+sample_frame_num: 4
+sample_frame_stride: 2
+val_sample_frame_stride: 2
+sample_expression_num: 36
+val_sample_expression_num: 8
+
+val_set_scale: 1
+
+data_root: './datasets/refer-kitti'
+val_data_root : './datasets/refer-kitti'
+img_hw: [224, 672] #[[224, 224], [448, 448], [224, 224]]
+# img_hw: [[224, 672], [224, 672], [224, 672]]
+random_crop_ratio: [1.0, 1.0]
+norm_mean: [0.48145466, 0.4578275, 0.40821073]
+norm_std: [0.26862954, 0.26130258, 0.27577711]
+sample_alpha: 24
+
+noise1: True
+noise2: True
+noise3: True
+
+gauss_sample: True
+
+POSW: 0.7
+
+gauss_sample: True
+diff_eval: 0
+text_len: 25
+
+
+entropy: 1
+

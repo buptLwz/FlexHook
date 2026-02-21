@@ -1,0 +1,16 @@
+uav0000268_05773_v+car-van-truck
+uav0000339_00001_v+car-van-truck
+uav0000339_00001_v+pedestrian-people
+uav0000339_00001_v+bicycle-tricycle-awning-tricycle-motor
+uav0000305_00000_v+car-van-truck
+uav0000305_00000_v+bicycle-tricycle-awning-tricycle-motor
+uav0000137_00458_v+car-van-truck
+uav0000137_00458_v+pedestrian-people
+uav0000137_00458_v+bicycle-tricycle-awning-tricycle-motor
+uav0000086_00000_v+pedestrian-people
+uav0000117_02622_v+car-van-truck
+uav0000117_02622_v+pedestrian-people
+uav0000117_02622_v+bicycle-tricycle-awning-tricycle-motor
+uav0000182_00000_v+car-van-truck
+uav0000182_00000_v+pedestrian-people
+uav0000182_00000_v+bicycle-tricycle-awning-tricycle-motor

@@ -1,0 +1,5 @@
+MOT17-09-FRCNN+person
+MOT17-02-FRCNN+person
+MOT17-02-FRCNN+woman-walking-on-sidewalk
+MOT17-02-FRCNN+a-person-walking-on-the-street
+MOT17-02-FRCNN+person-walking-on-the-sidewalk
