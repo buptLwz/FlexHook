@@ -2,7 +2,7 @@
 
 This repository contains code for paper:
 
-Rethinking Two-Stage Referring-by-Tracking in Referring Multi-Object Tracking: Make it Strong Again
+[Rethinking Two-Stage Referring-by-Tracking in Referring Multi-Object Tracking: Make it Strong Again](https://arxiv.org/abs/2503.07516)
 
 
 <div align="center">
